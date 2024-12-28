@@ -1,1 +1,4 @@
-paperfigs.egg-info
+__pycache__/
+paperfigs.egg-info*
+*.pyc
+
