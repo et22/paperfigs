@@ -1,0 +1,10 @@
+setup.py
+paperfigs/figure.py
+paperfigs/init.py
+paperfigs/plot.py
+paperfigs/styles.py
+paperfigs/utils.py
+paperfigs.egg-info/PKG-INFO
+paperfigs.egg-info/SOURCES.txt
+paperfigs.egg-info/dependency_links.txt
+paperfigs.egg-info/top_level.txt
