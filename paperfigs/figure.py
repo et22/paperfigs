@@ -40,9 +40,15 @@ def init_figure(nrows=None, ncols=None, col_widths=None, row_widths=None, white_
   i = 0
 
   if uppercase:
-    labels = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I']  # List of labels
+    labels = [
+        'A','B','C','D','E','F','G','H','I','J','K','L','M',
+        'N','O','P','Q','R','S','T','U','V','W','X','Y','Z'
+    ]
   else:
-    labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i']  # List of labels
+    labels = [
+        'a','b','c','d','e','f','g','h','i','j','k','l','m',
+        'n','o','p','q','r','s','t','u','v','w','x','y','z'
+    ]
 
   for row_idx, (widths, row_width) in enumerate(zip(col_widths, row_widths)):
     row_sz = int(row_width/np.sum(row_widths) * sz)
@@ -95,6 +101,7 @@ if rec and row_idx ==0 and col_idx == 0:
 else:
   ax = fig.add_subplot(gs_sub[:, :]) #gs[row_pos:row_pos+row_sz, col_pos:col_pos+col_sz])
 """
+
 
 
 
